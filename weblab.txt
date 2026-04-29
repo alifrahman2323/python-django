@@ -1,0 +1,11 @@
+DOM Insertion
+getElementById or getElementByClass
+createElement (Dynamic Element Creation)
+addEventListener
+
+useState
+useEffect
+useParams
+fetch API
+map()
+React Router

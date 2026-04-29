@@ -1,0 +1,4 @@
+session 3 task: 
+1. create a landing page and about page using DTL according to your selected project
+2. requirements: use atleast one url block and one repeatable block (for loop) in a parent html file and then inherit from it
+3. in the home page there should be a clickable link, by clicking the link user can go to another page (home page to about page and vice versa)
