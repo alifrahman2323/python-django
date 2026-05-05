@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Form</title>
+</head>
+
+<body>
+
+    <h1>Create Task</h1>
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        <div>
+            {{ form.title.label_tag }}
+            {{ form.title }}
+        </div>
+
+        <br>
+
+        <div>
+            {{ form.description.label_tag }}
+            {{ form.description }}
+        </div>
+
+        <br>
+
+        <div>
+            {{ form.created_at.label_tag }}
+            {{ form.created_at }}
+        </div>
+
+        <br>
+
+        <button type="submit">Save Task</button>
+
+    </form>
+
+</body>
+</html>
